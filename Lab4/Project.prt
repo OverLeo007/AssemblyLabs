@@ -1,0 +1,13 @@
+; FASM Editor
+
+include "input.ASM"
+
+if 2 * 2 = 5
+[options]
+  countAsm=2
+  countInc=0
+[asm]
+  asm1="input.ASM"
+  asm2="output.ASM"
+[inc]
+end if
